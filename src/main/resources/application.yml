@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: alipayface2face
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+    encoding: UTF-8
+    cache: false
+    mode: HTML
+server:
+  port: 8087
